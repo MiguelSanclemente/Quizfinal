@@ -84,13 +84,14 @@ if __name__ == "__main__":
     +---------------------------------------------------------------------------------------------------------+
 """)
         email = input("""Enter the institutional email:
-                      example: juan.perez@correounivalle.edu.co """)
+        example: juan.perez@correounivalle.edu.co
+        :            """)
         password = input("""Enter password:
-                         *At least one lowercase.
-                         *At least one capital letter.
-                         *At least one number. 
-                         *At least one special character (@#$%^&+=).
-                         """)
+*At least one lowercase.
+*At least one capital letter.
+*At least one number. 
+*At least one special character (@#$%^&+=).
+ :                        """)
 
         # Calls login function to validate credentials.
         if login(email, password):
